@@ -48,6 +48,13 @@
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column; /* empilha os itens verticalmente */
+    gap: 12px; /* diminui o espaçamento */
+  }
+}
+
 .textojustificado {
   text-align: justify;
   text-justify: inter-word;
