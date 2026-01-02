@@ -1,0 +1,23 @@
+.container {
+  width: 900px; /* default desktop */
+  max-width: 100%; /* não estoura no mobile */
+  margin: 0 auto;
+  padding: 32px 16px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}

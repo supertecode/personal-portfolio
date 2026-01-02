@@ -1,0 +1,99 @@
+[
+  {
+    "id": "Trabalho-de-Conclusao-de-Curso",
+    "title": "Previsão de Demanda usando Análise de Sentimento (TCC)",
+    "description": "Modelo de ML para prever Sentimento em avaliações de produtos.",
+    "techs": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "Seaborn",
+      "Transformers",
+      "NLP"
+    ],
+    "github": "https://github.com/supertecode/tcc",
+    "problem": "Integrar informações qualitativas de avaliações de clientes (análise de sentimento) para melhorar a previsão de demanda no e-commerce usando aprendizado de máquina.",
+    "approach": "Análise exploratória, feature engineering, processamento de linguagem natural, oversampling e regressão supervisionada.",
+    "results": "O modelo Extra Trees obteve melhor desempenho (~72 % de acurácia), mostrando que variáveis de sentimento enriquecem a previsão de demanda, apesar da dificuldade com sentimentos neutros.",
+    "metrics": [
+      { "name": "Acurácia", "value": "0.718" },
+      { "name": "Precisão", "value": "0.71" },
+      { "name": "Recall", "value": "0.719" },
+      { "name": "F1-score", "value": "0.704" }
+    ],
+    "images": ["/src/assets/projects/tcc/quadro.png"]
+  },
+  {
+    "id": "Previsão-de-largar-cursos-universitarios",
+    "title": "Análise da probabilidade de desistência em cursos da UTFPR",
+    "description": "Modelo de ML para prever desistência nos cursos do DAINF na UTFPR.",
+    "techs": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "Seaborn",
+      "Power BI"
+    ],
+    "github": "https://github.com/supertecode/prediction-of-student-dropout-in-college",
+    "problem": "Prever a situação atual dos estudantes (incluindo risco de evasão) com base em características demográficas e acadêmicas para identificar padrões que indiquem possíveis desistências.",
+    "approach": "Processamento de dados (limpeza, codificação), balanceamento de classes e treinamento de modelos de classificação (Random Forest, Extra Trees e Regressão Logística) usando validação holdout e cross-validation.",
+    "results": "O Random Forest destacou-se como o melhor modelo do projeto, apresentando o melhor equilíbrio entre acurácia e F1-score (≈ 98%), além de resultados estáveis na validação cruzada, demonstrando alta eficácia na identificação de alunos com risco de evasão.",
+    "metrics": [
+      { "name": "Acurácia", "value": "0.980" },
+      { "name": "Precisão", "value": "0.979" },
+      { "name": "Recall", "value": "0.979" },
+      { "name": "F1-score", "value": "0.979" }
+    ]
+  },
+  {
+    "id": "Análise-exploratória-de-dados-setores-de-mercado",
+    "title": "Análise Exploratória de Dados de Setores de Mercado",
+    "description": "Análise exploratória de dados financeiros de diferentes setores de mercado.",
+    "techs": ["Python", "Pandas", "Numpy", "Matplotlib", "Seaborn"],
+    "github": "https://github.com/supertecode/explolatory-data-analysis",
+    "problem": "O projeto realiza uma análise exploratória de dados de mercado de ações, buscando entender as características dos preços (como Open, High, Low, Close), volume de negociação, dividendos e atributos de empresas para identificar padrões e potenciais insights sobre desempenho de ações e setores no mercado financeiro.",
+    "approach": "A abordagem envolve entendimento do problema, tratamento e limpeza dos dados, seguida de visualizações descritivas e exploração estatística, usando notebooks para examinar distribuições, tendências temporais e relações entre variáveis antes de qualquer modelagem preditiva.",
+    "results": "O EDA permite identificar tendências nos preços das ações, comparar desempenhos entre empresas e setores, detectar padrões sazonais ou anomalias no mercado e oferecer bases sólidas para análises mais profundas ou modelos futuros, facilitando a compreensão dos dados de ações e suporte a decisões de investimento.",
+    "images": ["/src/assets/projects/eda/eda.png"]
+  },
+  {
+    "id": "property-price-prediction-tool-for-common-people",
+    "title": "Predição de Preços de Imóveis para o Público em Geral",
+    "description": "Ferramenta de predição de preços de imóveis acessível para o público em geral.",
+    "techs": [
+      "Python",
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn"
+    ],
+    "github": "https://github.com/supertecode/property-price-prediction-tool-for-common-people",
+    "problem": "Desenvolver uma ferramenta capaz de prever o preço diário de imóveis anunciados no Airbnb no Rio de Janeiro, auxiliando pessoas comuns (hosts) a definirem valores mais justos e competitivos com base nas características do imóvel e do anúncio.",
+    "approach": "Foi realizada análise e preparação dos dados, seguida da aplicação e comparação de diferentes modelos de regressão, utilizando divisão entre dados de treino e teste, avaliação por métricas quantitativas e seleção do modelo com melhor desempenho preditivo.",
+    "results": "O modelo Extra Trees Regressor apresentou o melhor desempenho entre os testados, indicando capacidade limitada de explicação do preço, mas evidenciando padrões relevantes e a necessidade de dados mais ricos para melhorar a precisão das previsões."
+  },
+
+  {
+    "id": "lojasMM",
+    "title": "Score de Crédito Customizado (Em parceria com a Lojas MM)",
+    "description": "Desenvolvimento de um score de crédito personalizado para clientes da Lojas MM.",
+    "techs": [
+      "Python",
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "Flask",
+      "React",
+      "Typescript"
+    ],
+    "problem": "Desenvolver um modelo de score de crédito personalizado para clientes da Lojas MM, visando melhorar a avaliação de risco e a tomada de decisões financeiras da empresa. O projeto foi desenvilvido através de disciplinas extensionistas da UTFPR-PG, que possibilitam a colaboração entre estudantes e empresas para resolver problemas reais do mercado.",
+    "approach": "Foi realizada análise e preparação dos dados, seguida da aplicação e comparação de diferentes modelos de regressão, utilizando divisão entre dados de treino e teste, avaliação por métricas quantitativas e seleção do modelo com melhor desempenho preditivo. Também foi desenvolvida uma aplicação web para facilitar o acesso ao modelo, utilizando Flask no backend e React com Typescript no frontend.",
+    "results": "O modelo Extra Trees Regressor apresentou o melhor desempenho entre os testados, indicando capacidade limitada de explicação do preço, mas evidenciando padrões relevantes e a necessidade de dados mais ricos para melhorar a precisão das previsões.",
+    "images": ["/src/assets/projects/lojasmm/lojasmm.jpeg"]
+  }
+]

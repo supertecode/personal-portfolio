@@ -1,0 +1,89 @@
+.container {
+  width: 900px; /* default desktop */
+  max-width: 100%; /* não estoura no mobile */
+  margin: 0 auto;
+  padding: 32px 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+.title {
+  color: #2c3035;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  color: #2c3035;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 0 36px;
+}
+
+.techs {
+  color: #4b5563;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+}
+
+.githubLink {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  text-decoration: underline;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-direction: column; /* 1 coluna */
+  align-items: center; /* centraliza horizontalmente */
+  gap: 16px;
+}
+
+.image {
+  border: 3px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  width: 45%;
+}
