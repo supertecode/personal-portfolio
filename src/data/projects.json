@@ -22,7 +22,7 @@
       { "name": "Recall", "value": "0.719" },
       { "name": "F1-score", "value": "0.704" }
     ],
-    "images": ["/src/assets/projects/tcc/quadro.png"]
+    "images": ["/public/projects/tcc/quadro.png"]
   },
   {
     "id": "Previsão-de-largar-cursos-universitarios",
@@ -56,7 +56,7 @@
     "problem": "O projeto realiza uma análise exploratória de dados de mercado de ações, buscando entender as características dos preços (como Open, High, Low, Close), volume de negociação, dividendos e atributos de empresas para identificar padrões e potenciais insights sobre desempenho de ações e setores no mercado financeiro.",
     "approach": "A abordagem envolve entendimento do problema, tratamento e limpeza dos dados, seguida de visualizações descritivas e exploração estatística, usando notebooks para examinar distribuições, tendências temporais e relações entre variáveis antes de qualquer modelagem preditiva.",
     "results": "O EDA permite identificar tendências nos preços das ações, comparar desempenhos entre empresas e setores, detectar padrões sazonais ou anomalias no mercado e oferecer bases sólidas para análises mais profundas ou modelos futuros, facilitando a compreensão dos dados de ações e suporte a decisões de investimento.",
-    "images": ["/src/assets/projects/eda/eda.png"]
+    "images": ["/public/projects/eda/eda.png"]
   },
   {
     "id": "property-price-prediction-tool-for-common-people",
@@ -94,6 +94,6 @@
     "problem": "Desenvolver um modelo de score de crédito personalizado para clientes da Lojas MM, visando melhorar a avaliação de risco e a tomada de decisões financeiras da empresa. O projeto foi desenvilvido através de disciplinas extensionistas da UTFPR-PG, que possibilitam a colaboração entre estudantes e empresas para resolver problemas reais do mercado.",
     "approach": "Foi realizada análise e preparação dos dados, seguida da aplicação e comparação de diferentes modelos de regressão, utilizando divisão entre dados de treino e teste, avaliação por métricas quantitativas e seleção do modelo com melhor desempenho preditivo. Também foi desenvolvida uma aplicação web para facilitar o acesso ao modelo, utilizando Flask no backend e React com Typescript no frontend.",
     "results": "O modelo Extra Trees Regressor apresentou o melhor desempenho entre os testados, indicando capacidade limitada de explicação do preço, mas evidenciando padrões relevantes e a necessidade de dados mais ricos para melhorar a precisão das previsões.",
-    "images": ["/src/assets/projects/lojasmm/lojasmm.jpeg"]
+    "images": ["/public/projects/lojasmm/lojasmm.jpeg"]
   }
 ]

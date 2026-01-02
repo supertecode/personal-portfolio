@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
+import imagem1 from "../assets/myself.jpg";
+import imagem2 from "../assets/linkedin.png";
+import imagem3 from "../assets/github.png";
 
 const Home = () => {
   return (
@@ -16,7 +19,7 @@ const Home = () => {
         <h2>Sobre mim</h2>
         <div className={styles.flex}>
           <div className={styles.avatar}>
-            <img src="src/assets/myself.jpg"></img>
+            <img src={imagem1} alt="Foto de perfil"></img>
           </div>
           <p className={styles.textojustificado}>
             Bacharel em Ciência da Computação pela Universidade Tecnológica
@@ -37,7 +40,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/assets/linkedin.png"></img>
+              <img src={imagem2} alt="linkedin"></img>
             </a>
           </div>
           <div className={styles.redesocial}>
@@ -46,7 +49,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/assets/github.png"></img>
+              <img src={imagem3} alt="github"></img>
             </a>
           </div>
         </div>
