@@ -8,7 +8,7 @@ export interface Project {
   title: string;
   description: string;
   techs: string[];
-  github: string;
+  github?: string;
 
   problem?: string;
   approach?: string;
