@@ -1,10 +1,12 @@
 import { Link, useParams } from "react-router-dom";
+import { useState } from "react";
 import projects from "../data/projects.json";
 import type { Project } from "../types/Project";
 import styles from "./ProjectDetail.module.css";
 
 const ProjectDetail = () => {
   const { id } = useParams();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const project = (projects as Project[]).find((p) => p.id === id);
 
@@ -71,8 +73,28 @@ const ProjectDetail = () => {
                 src={img}
                 alt="Visualização do projeto"
                 className={styles.image}
+                onClick={() => setSelectedImage(img)}
+                style={{ cursor: "pointer" }}
               />
             ))}
+          </div>
+        </div>
+      )}
+
+      {selectedImage && (
+        <div className={styles.modal} onClick={() => setSelectedImage(null)}>
+          <div className={styles.modalContent}>
+            <img
+              src={selectedImage}
+              alt="Imagem ampliada"
+              className={styles.modalImage}
+            />
+            <button
+              className={styles.closeButton}
+              onClick={() => setSelectedImage(null)}
+            >
+              ✕
+            </button>
           </div>
         </div>
       )}

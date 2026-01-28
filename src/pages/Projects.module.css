@@ -1,8 +1,9 @@
 .container {
-  width: 900px; /* default desktop */
-  max-width: 100%; /* não estoura no mobile */
+  max-width: 900px;
   margin: 0 auto;
   padding: 32px 16px;
+  width: 100%;
+  box-sizing: border-box;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);

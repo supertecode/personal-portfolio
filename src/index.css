@@ -29,6 +29,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: linear-gradient(135deg, #554f47 0%, #1a1816 80%);
+  overflow-x: hidden;
 }
 
 h1 {
