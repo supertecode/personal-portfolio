@@ -93,7 +93,7 @@ const ProjectDetail = () => {
       )}
 
       <div style={{ marginTop: "20px" }}>
-        <Link style={{ fontSize: "13px" }} to={`/projects`}>
+        <Link style={{ fontSize: "13px", color: "#343534" }} to={`/projects`}>
           Voltar
         </Link>
       </div>

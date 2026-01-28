@@ -1,7 +1,13 @@
 .navbar {
-  border-bottom: 1px solid #e5e7eb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #554f47 0%, #1a1816 100%);
   padding: 16px 0;
   margin-bottom: 0px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -26,13 +32,13 @@
 .link {
   text-decoration: none;
   font-weight: 500;
-  color: #374151;
+  color: #78828c;
   position: relative;
   transition: color 0.3s ease;
 }
 
 .link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -43,7 +49,7 @@
 }
 
 .link:hover {
-  color: #2563eb;
+  color: #e4e7ee;
 }
 
 .link:hover::after {
@@ -51,5 +57,5 @@
 }
 
 .linkActive {
-  color: #2563eb;
+  color: #e5ebee;
 }
